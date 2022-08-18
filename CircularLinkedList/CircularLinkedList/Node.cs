@@ -1,4 +1,3 @@
-﻿
 namespace CircularLinkedList
 {
     public class Node
@@ -42,7 +41,7 @@ namespace CircularLinkedList
                 createdNode.value = value;
 
                 lastItem.next = createdNode;
-                createdNode.prev = head;
+                createdNode.prev = lastItem;
                 createdNode.next = head;
                 lastItem = createdNode;
             }
