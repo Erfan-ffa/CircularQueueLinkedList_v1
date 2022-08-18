@@ -86,6 +86,7 @@ namespace CircularLinkedList
 
 
                 // Second solution
+                //var temp = head;
                 //while (true)
                 //{
                 //    Console.WriteLine(temp.value);
